@@ -1,0 +1,132 @@
+body {
+    background-color: #040203;
+  }
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    max-width: 1440px;
+    margin: 0 auto;
+  }  
+
+.cabecalho .logo {
+    width: 65px;
+    border-radius: 75%;
+}
+
+.cabecalho .menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.cabecalho nav .menu a {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0,2s;
+}
+
+.cabecalho nav li a:hover {
+    background-color: #ff92aa;
+}
+
+.container {
+    text-align: left;
+    color: #d2bed0;
+    max-width: 1440px;
+    margin: auto;
+    display: block;
+    align-items: center;
+    height: calc(100vh - 132px);
+    padding: 0 30px 30px;
+}
+  
+#title {
+      font-family: Explora;
+      font-size: 75px;
+      text-align: center;
+  }
+  
+#description {
+      font-family: Playfair Display;
+      text-align: center;
+  }
+  
+#survey-form {
+    border: none;
+    display: block;
+    align-items: center;
+    color: #d2bed0;
+    font-family: Playfair Display;
+  }
+  
+fieldset {
+    border: none;
+    padding: 10px;
+}
+
+#name, #email, #number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 300px;
+    width: 100%;
+  }
+  
+#dropdown {
+    display: flex;
+    justify-content: center;
+  }
+  
+#student-label, #comments, #style-label, #arrive-form, #liked-label, label {
+    display: block;
+  }  
+
+textarea {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+  }
+
+#submit {
+    border-radius: 25%;
+    background-color: #d2bed0;
+    font-family: Explora;
+    font-size: 20px;
+    padding: 5px 20px;
+}
+
+.background-image {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.background-image img {
+    height: 100vh;
+    width: 100vw;
+}
+
+.background-image::after {
+    content: "";
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, #040203 0%, rgba(0, 0, 0, 0.85) 49%, #040203 100%);
+}
