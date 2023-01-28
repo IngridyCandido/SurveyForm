@@ -19,7 +19,7 @@ This is an adaptation of the code I had to create to make a project as a require
 ### Screenshot
 
 <img src="https://github.com/IngridyCandido/SurveyForm/blob/main/src/imagens/Captura%20de%20tela%202023-01-28%20192516.png"/>
-<img src=""/>
+<img src="https://github.com/IngridyCandido/SurveyForm/blob/main/src/imagens/Captura%20de%20tela%202023-01-28%20192622.png"/>
 
 ### Links
 
