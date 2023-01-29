@@ -60,4 +60,4 @@ I want to learn new HTML elements and use javascript more in my projects.
 
 ## Acknowledgments
 
-Thanks to the developer Hari Junior who introduced me to freeCodeCamp.
+Thanks to the developer [Hari Junior](https://github.com/hari6091) who introduced me to freeCodeCamp.
